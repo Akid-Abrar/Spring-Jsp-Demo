@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="demo1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="41c5f9a7-bf9a-42de-a834-f808a638a82c">
+	<field name="user_name" class="java.lang.Integer">
+	</field>
+	<field name="password" class="java.lang.String">
+	</field>
+	<field name="gender_id" class="java.lang.Integer">
+	</field>
+	<field name="board_id" class="java.lang.Integer">
+	</field>
+	<field name="joining_date" class="java.lang.String">
+	</field>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="80" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="80" uuid="91667ca9-da71-4220-b36b-45c88ddf39cc"/>
+				<box>
+					<pen lineWidth="1.75" lineStyle="Solid" lineColor="#5C1311"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="63"/>
+				</textElement>
+				<text><![CDATA[User Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<field name="id" class="java.lang.Integer">
+			</field>
+			<textField>
+			</textField>
+			<textField>
+			</textField>
+			<textField>
+			</textField>
+			<textField>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
